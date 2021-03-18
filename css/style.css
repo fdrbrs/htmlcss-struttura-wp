@@ -14,8 +14,54 @@
 
 /* Body */
 
-body{
+
+/* Header */
+
+header{
+    height: 100px;
+    background-color: lightseagreen;
     width: 80%;
     margin: auto;
-    background-color: lightblue;
+}
+
+/* nav bar */
+
+.unstyled{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+}
+
+/* center image */
+
+.image_placeholder{
+    background-color: brown;
+    margin: auto;
+    width: 80%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+/* title */
+
+.title {
+    margin: auto;
+    width: 80%;
+}
+
+/* 3 colums */
+
+.container{
+    background-color: darkgrey;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+}
+
+.content{
+    background-color: green;
+    width: 50%;
+    height: 100%;
 }
