@@ -14,7 +14,6 @@
 
 /* Body */
 
-
 /* Header */
 
 header{
@@ -22,6 +21,7 @@ header{
     background-color: lightseagreen;
     width: 80%;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 /* nav bar */
@@ -34,6 +34,7 @@ li{
     display: inline-block;
 }
 
+
 /* center image */
 
 .image_placeholder{
@@ -42,6 +43,7 @@ li{
     width: 80%;
     height: 400px;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 
 /* title */
@@ -49,6 +51,7 @@ li{
 .title {
     margin: auto;
     width: 80%;
+    margin-bottom: 30px;
 }
 
 /* 3 colums */
@@ -58,10 +61,36 @@ li{
     width: 80%;
     height: 500px;
     margin: auto;
+    margin-bottom: 30px;
 }
 
 .content{
     background-color: green;
     width: 50%;
     height: 100%;
+    float: left;
+}
+
+.left_sidebar{
+    background-color: blue;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.right_sidebar{
+    background-color: orange;
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+/* footer */
+
+footer{
+    background-color: violet;
+    width: 80%;
+    height: 30px;
+    margin: auto;
+    text-align: center;
 }
